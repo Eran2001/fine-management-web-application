@@ -7,7 +7,6 @@ CREATE TABLE all_fines (
     fine DECIMAL(10,2) NOT NULL
 );
 
-
 insert default data
 
 INSERT INTO all_fines (name, type, fine) 
@@ -17,4 +16,3 @@ VALUES
 ('Running Red Light', 'Traffic Violation', 7000.00),
 ('No Helmet', 'Safety Violation', 1500.00),
 ('Driving Without License', 'Legal Violation', 10000.00);
-
